@@ -7,6 +7,6 @@ Download this repository into a folder on you local drive. Download Approximate 
 Open file simulation.m in MATLAB and run it. When propted to change working directory, click yes.
 A GUI window should appear. Click "Run" in the right bottom corner to start the simulation.
 
-You can change many parameters of the simulation, either in GUI (click "Apply" after making a chnage) or by modifying setup.m file.
+You can change various parameters of the simulation, either in GUI (click "Apply" after making a chnage) or by modifying setup.m file.
 
 Tested with MATLAB 2021b (debian 11 - amd64) and 2022a (maci64)
