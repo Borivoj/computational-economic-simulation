@@ -1,0 +1,17 @@
+function [rand_indx] = random_actions(inputArg1,inputArg2)
+    for firm_index=1:economy.cfg.n_firms
+        if rand <= economy.cfg.eps
+            indx.FirmsActionIndexes(firm_index)=randi(economy.cfg.DIMS_f.dimu);
+        end
+    end
+
+    for household_index=1:economy.cfg.n_households
+        random_number = rand;
+        if random_number <= economy.cfg.eps
+            indx.HouseholdsActionsIndexes(household_index,1)=randi(economy.cfg.DIMS_h.dimu(1));
+        end
+        if random_number <= economy.cfg.eps_w
+            indx.HouseholdsActionsIndexes(household_index,2)=randi(economy.cfg.DIMS_h.dimu(2));
+        end
+    end
+end
