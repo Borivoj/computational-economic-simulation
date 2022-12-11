@@ -4,7 +4,7 @@ An agent-based computational simulation is built around a textbook RBC model. Th
 
 Download this repository into a folder on your local drive. Download Approximate RL and DP toolbox from http://busoniu.net/repository.php and extract it into ./contrib directory.
 
-Open file simulation.m in MATLAB and run it. When prompted to change the working directory, click yes.
+Open file simulation.m in MATLAB and run it. When prompted, change the working directory.
 A GUI window should appear. Click "Run" in the right bottom corner to start the simulation.
 
 You can change various parameters of the simulation, either in GUI (click "Apply" after making a change) or by modifying setup.m file.
