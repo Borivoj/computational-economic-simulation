@@ -1,6 +1,6 @@
 # Computational economic simulation based on RBC model with Q-learning agents
 Source code of an economic simulation presented in this paper: https://ssrn.com/abstract=4325511
-For ease of use uncludes GUI and can run one any computer with MATLAB.
+For ease of use uncludes GUI and can run on any computer with MATLAB.
 # Abstract
 In a Real Business Cycle model, monetary shock does not affect real variables, and economic
 agents are assumed to understand the model’s structure. This article shows how it is possible
