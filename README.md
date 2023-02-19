@@ -1,5 +1,19 @@
 # Computational economic simulation based on RBC model with Q-learning agents
-An agent-based computational simulation which is built around a textbook RBC model. The model structure is taken from chapter 2 of Monetary policy, inflation, and the business cycle by Jordi Galí. The simulation is composed of interacting firms and households whose decision-making is driven by the Reinforcement learning algorithm, specifically Q-learning (extended with fuzzy approximation).
+Source code of an economic simulation presented in this paper: https://ssrn.com/abstract=4325511
+For ease of use uncludes GUI and can run one any computer with MATLAB.
+# Abstract
+In a Real Business Cycle model, monetary shock does not affect real variables, and economic
+agents are assumed to understand the model’s structure. This article shows how it is possible
+to build a macroeconomic agent-based simulation from standard textbook Real Business
+Cycle model and how to utilize reinforcement learning to drive agents’ decision making. The
+reinforcement learning algorithm of choice in this article is Q-learning, extended with fuzzy
+approximation. Q-learning is a simple algorithm based on incremental updates of estimated
+future rewards. As such, it circumvents introducing black boxes into the simulation and
+does not require strong assumptions on economic agents’ rationality and expectations. This
+simulation falls into Real Business Cycle model category, but the reinforcement learning
+driven decision making mechanism of economic agents causes monetary policy to be non-
+neutral in the short run.
+
 # Installation
 
 Download this repository into a folder on your local drive. Download Approximate RL and DP toolbox from http://busoniu.net/repository.php and extract it into ./contrib directory.
