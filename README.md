@@ -1,5 +1,5 @@
 # Computational economic simulation based on RBC model with Q-learning agents
-An economic simulation presented in paper [Reinforcement Learning Induced Non-Neutrality of Monetary Policy in Computational Economic Simulation](https://ssrn.com/abstract=4325511)
+An economic simulation presented in paper [Reinforcement Learning Induced Non-Neutrality of Monetary Policy in Computational Economic Simulation](https://github.com/Borivoj/computational-economic-simulation/blob/main/Reinforcement%20learning%20in%20computational%20economic%20simulation.pdf)
 <br>
 For ease of use includes GUI and can run on any computer with MATLAB.
 # Abstract
